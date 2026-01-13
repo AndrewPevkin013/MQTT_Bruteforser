@@ -1,6 +1,13 @@
 Lib:
 ```pip install paho-mqtt```
 
+Start venv:
+```.venv/Scripts/activate``` - Windows
+```source venv/bin/activate``` - macOS/Linux
+
+Stop venv:
+```deactivate```
+
 Start program:
 ```python mqtt_brute_forcer.py -H your.mqtt.broker.com -p 1883 -u username -w wordlist.txt```
 
